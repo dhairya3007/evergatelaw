@@ -1,0 +1,1369 @@
+  <!-- ===================================================== -->
+  <!-- STRONG SEO / SEARCH ENGINE OPTIMIZATION -->
+  <!-- ===================================================== -->
+
+  <seo>
+
+    <objective>
+      Build the website with strong technical, on-page, local and
+      semantic SEO from the beginning.
+
+      The website should be optimized for users searching for UK
+      immigration advice and related immigration services.
+
+      SEO must be implemented as part of the application architecture,
+      not added as an afterthought.
+    </objective>
+
+
+    <!-- ================================================= -->
+    <!-- PRIMARY SEO TARGET -->
+    <!-- ================================================= -->
+
+    <target_market>
+      <country>United Kingdom</country>
+      <language>English (UK)</language>
+      <audience>
+        Individuals, families, workers, employers, businesses,
+        visitors and people seeking professional UK immigration advice.
+      </audience>
+    </target_market>
+
+
+    <!-- ================================================= -->
+    <!-- PRIMARY KEYWORDS -->
+    <!-- ================================================= -->
+
+    <primary_keywords>
+
+      <keyword>UK immigration advice</keyword>
+      <keyword>UK immigration lawyer</keyword>
+      <keyword>immigration advice UK</keyword>
+      <keyword>UK visa advice</keyword>
+      <keyword>immigration services UK</keyword>
+      <keyword>UK immigration services</keyword>
+      <keyword>immigration consultant UK</keyword>
+
+    </primary_keywords>
+
+
+    <!-- ================================================= -->
+    <!-- SERVICE KEYWORDS -->
+    <!-- ================================================= -->
+
+    <service_keywords>
+
+      <family>
+        <keyword>UK family visa</keyword>
+        <keyword>UK partner visa</keyword>
+        <keyword>UK spouse visa</keyword>
+        <keyword>family immigration UK</keyword>
+      </family>
+
+      <work>
+        <keyword>UK work visa</keyword>
+        <keyword>Skilled Worker visa UK</keyword>
+        <keyword>work immigration UK</keyword>
+      </work>
+
+      <business>
+        <keyword>UK business immigration</keyword>
+        <keyword>business visa UK</keyword>
+        <keyword>UK immigration for businesses</keyword>
+      </business>
+
+      <settlement>
+        <keyword>UK ILR</keyword>
+        <keyword>Indefinite Leave to Remain UK</keyword>
+        <keyword>UK settlement advice</keyword>
+      </settlement>
+
+      <citizenship>
+        <keyword>British citizenship</keyword>
+        <keyword>British citizenship application</keyword>
+        <keyword>UK citizenship advice</keyword>
+      </citizenship>
+
+      <visitor>
+        <keyword>UK visitor visa</keyword>
+        <keyword>UK visitor visa advice</keyword>
+        <keyword>UK visit visa</keyword>
+      </visitor>
+
+    </service_keywords>
+
+
+    <!-- ================================================= -->
+    <!-- TITLE TAG -->
+    <!-- ================================================= -->
+
+    <title>
+
+      <homepage>
+        Evergate | UK Immigration Advice &amp; Visa Support
+      </homepage>
+
+      <rule>
+        Keep the primary title approximately 50-60 characters where
+        practical and make it readable rather than keyword-stuffed.
+      </rule>
+
+      <rule>
+        Include the brand name and the primary service/keyword.
+      </rule>
+
+    </title>
+
+
+    <!-- ================================================= -->
+    <!-- META DESCRIPTION -->
+    <!-- ================================================= -->
+
+    <meta_description>
+
+      <homepage>
+        Clear, professional UK immigration advice and visa support
+        for individuals, families and businesses. Explore our services
+        and start your enquiry with Evergate.
+      </homepage>
+
+      <rules>
+        <rule>
+          Create a compelling meta description for the homepage.
+        </rule>
+
+        <rule>
+          Keep descriptions approximately 150-160 characters where
+          practical.
+        </rule>
+
+        <rule>
+          Include the main search intent naturally.
+        </rule>
+
+        <rule>
+          Never keyword stuff.
+        </rule>
+
+      </rules>
+
+    </meta_description>
+
+
+    <!-- ================================================= -->
+    <!-- CANONICAL URL -->
+    <!-- ================================================= -->
+
+    <canonical>
+
+      <url>https://evergatelaw.co.uk/</url>
+
+      <rules>
+        <rule>
+          Add a canonical URL to prevent duplicate URL issues.
+        </rule>
+
+        <rule>
+          Ensure the canonical URL uses HTTPS.
+        </rule>
+
+        <rule>
+          Use the preferred production domain consistently.
+        </rule>
+      </rules>
+
+    </canonical>
+
+
+    <!-- ================================================= -->
+    <!-- ROBOTS -->
+    <!-- ================================================= -->
+
+    <robots>
+
+      <meta>
+        index, follow, max-image-preview:large,
+        max-snippet:-1, max-video-preview:-1
+      </meta>
+
+      <rules>
+
+        <rule>
+          Production pages should be indexable.
+        </rule>
+
+        <rule>
+          Do not accidentally use noindex on the homepage.
+        </rule>
+
+        <rule>
+          Development, staging and preview environments should not
+          accidentally be indexed by search engines.
+        </rule>
+
+      </rules>
+
+    </robots>
+
+
+    <!-- ================================================= -->
+    <!-- OPEN GRAPH -->
+    <!-- ================================================= -->
+
+    <open_graph>
+
+      <enabled>true</enabled>
+
+      <type>website</type>
+
+      <title>
+        Evergate | UK Immigration Advice &amp; Visa Support
+      </title>
+
+      <description>
+        Clear, professional UK immigration advice and visa support
+        for individuals, families and businesses.
+      </description>
+
+      <url>https://evergatelaw.co.uk/</url>
+
+      <image>
+        /og-image.jpg
+      </image>
+
+      <image_dimensions>
+        <width>1200</width>
+        <height>630</height>
+      </image_dimensions>
+
+      <site_name>Evergate</site_name>
+
+      <locale>en_GB</locale>
+
+    </open_graph>
+
+
+    <!-- ================================================= -->
+    <!-- TWITTER / X CARD -->
+    <!-- ================================================= -->
+
+    <twitter>
+
+      <card>summary_large_image</card>
+
+      <title>
+        Evergate | UK Immigration Advice &amp; Visa Support
+      </title>
+
+      <description>
+        Professional UK immigration advice and visa support.
+      </description>
+
+      <image>
+        /og-image.jpg
+      </image>
+
+    </twitter>
+
+
+    <!-- ================================================= -->
+    <!-- SEMANTIC HTML -->
+    <!-- ================================================= -->
+
+    <semantic_html>
+
+      <requirement>
+        Use semantic HTML5 elements throughout the website.
+      </requirement>
+
+      <elements>
+        <element>header</element>
+        <element>nav</element>
+        <element>main</element>
+        <element>section</element>
+        <element>article</element>
+        <element>footer</element>
+      </elements>
+
+      <rules>
+
+        <rule>
+          There must be exactly one primary H1 on the homepage.
+        </rule>
+
+        <rule>
+          Use H2 headings for major sections.
+        </rule>
+
+        <rule>
+          Use H3 headings for subsections and service cards where
+          appropriate.
+        </rule>
+
+        <rule>
+          Do not use heading tags purely for visual styling.
+        </rule>
+
+        <rule>
+          Maintain a logical heading hierarchy.
+        </rule>
+
+      </rules>
+
+    </semantic_html>
+
+
+    <!-- ================================================= -->
+    <!-- HOMEPAGE HEADING STRUCTURE -->
+    <!-- ================================================= -->
+
+    <heading_structure>
+
+      <h1>
+        Clear UK Immigration Advice. Professional Support.
+      </h1>
+
+      <h2>
+        Why Evergate
+      </h2>
+
+      <h2>
+        About Evergate
+      </h2>
+
+      <h2>
+        Our Immigration Services
+      </h2>
+
+      <h3>
+        Family &amp; Partner Visas
+      </h3>
+
+      <h3>
+        Work Visas
+      </h3>
+
+      <h3>
+        Business Immigration
+      </h3>
+
+      <h3>
+        Settlement / ILR
+      </h3>
+
+      <h3>
+        British Citizenship
+      </h3>
+
+      <h3>
+        Visitor Visas
+      </h3>
+
+      <h2>
+        Our Process
+      </h2>
+
+      <h2>
+        Why Choose Evergate
+      </h2>
+
+      <h2>
+        Start Your Enquiry
+      </h2>
+
+    </heading_structure>
+
+
+    <!-- ================================================= -->
+    <!-- IMAGE SEO -->
+    <!-- ================================================= -->
+
+    <images>
+
+      <rules>
+
+        <rule>
+          Every meaningful image must have descriptive alt text.
+        </rule>
+
+        <rule>
+          Decorative images should use an empty alt attribute.
+        </rule>
+
+        <rule>
+          Do not stuff keywords into alt attributes.
+        </rule>
+
+        <rule>
+          Use descriptive filenames instead of generic filenames.
+        </rule>
+
+      </rules>
+
+      <examples>
+
+        <image>
+          <filename>evergate-uk-immigration-advice.jpg</filename>
+          <alt>
+            Evergate UK immigration advice consultation
+          </alt>
+        </image>
+
+        <image>
+          <filename>uk-immigration-consultation.jpg</filename>
+          <alt>
+            Professional UK immigration consultation
+          </alt>
+        </image>
+
+      </examples>
+
+    </images>
+
+
+    <!-- ================================================= -->
+    <!-- STRUCTURED DATA / JSON-LD -->
+    <!-- ================================================= -->
+
+    <structured_data>
+
+      <enabled>true</enabled>
+
+      <format>JSON-LD</format>
+
+      <schemas>
+
+        <!-- Organization -->
+
+        <schema type="Organization">
+
+          <name>Evergate</name>
+
+          <url>https://evergatelaw.co.uk/</url>
+
+          <logo>
+            https://evergatelaw.co.uk/logo.png
+          </logo>
+
+          <email>
+            info@evergatelaw.co.uk
+          </email>
+
+          <telephone>
+            +44 20 3276 2862
+          </telephone>
+
+        </schema>
+
+
+        <!-- Local Business -->
+
+        <schema type="LocalBusiness">
+
+          <name>Evergate</name>
+
+          <url>https://evergatelaw.co.uk/</url>
+
+          <telephone>
+            +44 20 3276 2862
+          </telephone>
+
+          <address>
+
+            <street>
+              124 City Road
+            </street>
+
+            <city>
+              London
+            </city>
+
+            <postal_code>
+              EC1V 2NX
+            </postal_code>
+
+            <country>
+              GB
+            </country>
+
+          </address>
+
+        </schema>
+
+
+        <!-- WebSite -->
+
+        <schema type="WebSite">
+
+          <name>Evergate</name>
+
+          <url>https://evergatelaw.co.uk/</url>
+
+          <in_language>
+            en-GB
+          </in_language>
+
+        </schema>
+
+
+        <!-- WebPage -->
+
+        <schema type="WebPage">
+
+          <name>
+            Evergate | UK Immigration Advice &amp; Visa Support
+          </name>
+
+          <url>
+            https://evergatelaw.co.uk/
+          </url>
+
+          <in_language>
+            en-GB
+          </in_language>
+
+        </schema>
+
+      </schemas>
+
+      <important_rule>
+        Only include legal/regulatory credentials, ratings,
+        accreditations, reviews, registration numbers or professional
+        claims in structured data if they are verified and genuinely
+        applicable to the business.
+      </important_rule>
+
+    </structured_data>
+
+
+    <!-- ================================================= -->
+    <!-- LOCAL SEO -->
+    <!-- ================================================= -->
+
+    <local_seo>
+
+      <location>
+        London, United Kingdom
+      </location>
+
+      <target_queries>
+
+        <query>immigration advice London</query>
+        <query>UK immigration lawyer London</query>
+        <query>immigration consultant London</query>
+        <query>UK visa advice London</query>
+        <query>immigration services London</query>
+
+      </target_queries>
+
+      <requirements>
+
+        <requirement>
+          Display the legitimate business address where appropriate.
+        </requirement>
+
+        <requirement>
+          Display business contact information consistently.
+        </requirement>
+
+        <requirement>
+          Keep NAP information consistent:
+          Name, Address and Phone.
+        </requirement>
+
+        <requirement>
+          Use UK spelling and terminology.
+        </requirement>
+
+        <requirement>
+          Use en-GB language metadata.
+        </requirement>
+
+      </requirements>
+
+    </local_seo>
+
+
+    <!-- ================================================= -->
+    <!-- INTERNAL LINKING -->
+    <!-- ================================================= -->
+
+    <internal_linking>
+
+      <requirement>
+        Navigation links should use meaningful anchor text.
+      </requirement>
+
+      <examples>
+
+        <link>
+          <anchor>UK Family &amp; Partner Visa Advice</anchor>
+          <target>#family-visas</target>
+        </link>
+
+        <link>
+          <anchor>UK Work Visa Advice</anchor>
+          <target>#work-visas</target>
+        </link>
+
+        <link>
+          <anchor>Business Immigration Services</anchor>
+          <target>#business-immigration</target>
+        </link>
+
+        <link>
+          <anchor>Settlement and ILR Advice</anchor>
+          <target>#settlement</target>
+        </link>
+
+      </examples>
+
+      <rule>
+        Avoid generic anchor text such as "Click Here".
+      </rule>
+
+    </internal_linking>
+
+
+    <!-- ================================================= -->
+    <!-- URL STRUCTURE -->
+    <!-- ================================================= -->
+
+    <urls>
+
+      <requirement>
+        Keep URLs short, readable and descriptive.
+      </requirement>
+
+      <examples>
+
+        <url>/</url>
+        <url>/#about</url>
+        <url>/#services</url>
+        <url>/#family-visas</url>
+        <url>/#work-visas</url>
+        <url>/#business-immigration</url>
+        <url>/#settlement</url>
+        <url>/#citizenship</url>
+        <url>/#visitor-visas</url>
+        <url>/#process</url>
+        <url>/#contact</url>
+
+      </examples>
+
+    </urls>
+
+
+    <!-- ================================================= -->
+    <!-- SITEMAP -->
+    <!-- ================================================= -->
+
+    <sitemap>
+
+      <enabled>true</enabled>
+
+      <file>/sitemap.xml</file>
+
+      <homepage>
+        https://evergatelaw.co.uk/
+      </homepage>
+
+      <rules>
+
+        <rule>
+          Generate a valid XML sitemap.
+        </rule>
+
+        <rule>
+          Include only canonical, indexable URLs.
+        </rule>
+
+        <rule>
+          Do not include development or preview URLs.
+        </rule>
+
+      </rules>
+
+    </sitemap>
+
+
+    <!-- ================================================= -->
+    <!-- ROBOTS.TXT -->
+    <!-- ================================================= -->
+
+    <robots_txt>
+
+      <enabled>true</enabled>
+
+      <file>/robots.txt</file>
+
+      <content>
+
+        User-agent: *
+        Allow: /
+
+        Sitemap: https://evergatelaw.co.uk/sitemap.xml
+
+      </content>
+
+    </robots_txt>
+
+
+    <!-- ================================================= -->
+    <!-- PERFORMANCE SEO -->
+    <!-- ================================================= -->
+
+    <performance>
+
+      <goal>
+        Optimize for Core Web Vitals and fast mobile loading.
+      </goal>
+
+      <requirements>
+
+        <requirement>
+          Lazy-load below-the-fold images.
+        </requirement>
+
+        <requirement>
+          Use modern image formats such as WebP or AVIF where appropriate.
+        </requirement>
+
+        <requirement>
+          Specify image width and height to reduce layout shift.
+        </requirement>
+
+        <requirement>
+          Avoid unnecessarily large JavaScript bundles.
+        </requirement>
+
+        <requirement>
+          Avoid blocking rendering with unnecessary scripts.
+        </requirement>
+
+        <requirement>
+          Minimize layout shifts.
+        </requirement>
+
+        <requirement>
+          Optimize fonts and avoid loading unnecessary font weights.
+        </requirement>
+
+        <requirement>
+          Keep animations GPU-friendly.
+        </requirement>
+
+      </requirements>
+
+    </performance>
+
+
+    <!-- ================================================= -->
+    <!-- MOBILE SEO -->
+    <!-- ================================================= -->
+
+    <mobile_seo>
+
+      <requirement>
+        Follow a mobile-first responsive design.
+      </requirement>
+
+      <requirement>
+        Ensure all important content is available on mobile.
+      </requirement>
+
+      <requirement>
+        Do not hide important SEO content only on mobile.
+      </requirement>
+
+      <requirement>
+        Ensure buttons and links have appropriate touch targets.
+      </requirement>
+
+      <requirement>
+        Avoid intrusive popups that obstruct the main content.
+      </requirement>
+
+    </mobile_seo>
+
+
+    <!-- ================================================= -->
+    <!-- CONTENT QUALITY -->
+    <!-- ================================================= -->
+
+    <content_seo>
+
+      <requirement>
+        Write original, useful and human-readable content.
+      </requirement>
+
+      <requirement>
+        Do not keyword stuff.
+      </requirement>
+
+      <requirement>
+        Do not repeat the same keyword unnaturally.
+      </requirement>
+
+      <requirement>
+        Explain immigration services clearly for real users.
+      </requirement>
+
+      <requirement>
+        Use UK English spelling.
+      </requirement>
+
+      <requirement>
+        Content should demonstrate professionalism and expertise.
+      </requirement>
+
+      <requirement>
+        Do not make unsupported claims about success rates,
+        expertise, regulation, awards or client results.
+      </requirement>
+
+    </content_seo>
+
+
+    <!-- ================================================= -->
+    <!-- LEGAL / TRUST SEO -->
+    <!-- ================================================= -->
+
+    <trust_and_compliance>
+
+      <requirement>
+        Clearly identify the business and its legitimate contact details.
+      </requirement>
+
+      <requirement>
+        Provide privacy and cookie information.
+      </requirement>
+
+      <requirement>
+        Provide appropriate legal and regulatory information once verified.
+      </requirement>
+
+      <requirement>
+        Do not invent regulatory bodies, registration numbers,
+        accreditations or solicitor status.
+      </requirement>
+
+      <requirement>
+        Do not use fake testimonials or fabricated reviews.
+      </requirement>
+
+      <requirement>
+        Do not present the website as providing legal advice
+        beyond the actual authorised scope of the business.
+      </requirement>
+
+    </trust_and_compliance>
+
+
+    <!-- ================================================= -->
+    <!-- SOCIAL SHARING -->
+    <!-- ================================================= -->
+
+    <social_metadata>
+
+      <platform>Facebook</platform>
+      <platform>LinkedIn</platform>
+      <platform>WhatsApp</platform>
+      <platform>X</platform>
+
+      <requirement>
+        Ensure Open Graph metadata generates a professional preview
+        when the homepage is shared.
+      </requirement>
+
+      <requirement>
+        Create a dedicated 1200x630 social sharing image.
+      </requirement>
+
+      <social_image_content>
+        EVERGATE
+
+        Clear advice.
+        Professional support.
+        Personal service.
+
+        UK Immigration Advice
+      </social_image_content>
+
+    </social_metadata>
+
+
+    <!-- ================================================= -->
+    <!-- ACCESSIBILITY + SEO -->
+    <!-- ================================================= -->
+
+    <accessibility_seo>
+
+      <requirement>
+        All images require meaningful alt text when informative.
+      </requirement>
+
+      <requirement>
+        Forms must have accessible labels.
+      </requirement>
+
+      <requirement>
+        Interactive elements must be keyboard accessible.
+      </requirement>
+
+      <requirement>
+        Maintain proper heading hierarchy.
+      </requirement>
+
+      <requirement>
+        Maintain readable text sizes and sufficient contrast.
+      </requirement>
+
+    </accessibility_seo>
+
+
+    <!-- ================================================= -->
+    <!-- SEO DEVELOPMENT CHECKLIST -->
+    <!-- ================================================= -->
+
+    <final_seo_check>
+
+      <check>Unique title tag</check>
+      <check>Unique meta description</check>
+      <check>Canonical URL</check>
+      <check>One primary H1</check>
+      <check>Logical H2/H3 hierarchy</check>
+      <check>Semantic HTML</check>
+      <check>Descriptive image alt text</check>
+      <check>Open Graph metadata</check>
+      <check>Twitter/X metadata</check>
+      <check>JSON-LD structured data</check>
+      <check>Organization schema</check>
+      <check>LocalBusiness schema</check>
+      <check>WebSite schema</check>
+      <check>WebPage schema</check>
+      <check>robots.txt</check>
+      <check>sitemap.xml</check>
+      <check>HTTPS canonical</check>
+      <check>Mobile responsive</check>
+      <check>Core Web Vitals optimization</check>
+      <check>Fast loading</check>
+      <check>Accessible navigation</check>
+      <check>Internal linking</check>
+      <check>UK English</check>
+      <check>Local SEO</check>
+      <check>No keyword stuffing</check>
+      <check>No fake claims or testimonials</check>
+
+    </final_seo_check>
+
+  </seo>
+
+
+
+    <!-- ===================================================== -->
+  <!-- DESIGN / CSS LOCK -->
+  <!-- ===================================================== -->
+
+  <css_design_lock>
+
+    <critical>
+      The existing visual design, color palette, typography,
+      spacing system, component styling and overall UI/UX direction
+      MUST remain consistent throughout the entire website.
+    </critical>
+
+    <rule>
+      SEO implementation must NOT alter the visual appearance
+      of the website.
+    </rule>
+
+    <rule>
+      Do not introduce new colors because of SEO requirements.
+    </rule>
+
+    <rule>
+      Do not introduce a different typography system.
+    </rule>
+
+    <rule>
+      Do not introduce additional visual themes.
+    </rule>
+
+    <rule>
+      Do not create separate styling for SEO content.
+    </rule>
+
+    <rule>
+      SEO content must use the existing design system.
+    </rule>
+
+
+    <!-- ================================================ -->
+    <!-- LOCKED COLOR SYSTEM -->
+    <!-- ================================================ -->
+
+    <colors>
+
+      <primary>#162A38</primary>
+      <secondary>#274C5E</secondary>
+      <accent>#C9A86A</accent>
+      <background>#F8F7F3</background>
+      <surface>#FFFFFF</surface>
+      <text>#18232B</text>
+      <muted>#6B7378</muted>
+      <border>#E4E1DA</border>
+
+      <rule>
+        These colors must be reused consistently throughout
+        every section and component.
+      </rule>
+
+    </colors>
+
+
+    <!-- ================================================ -->
+    <!-- LOCKED TYPOGRAPHY -->
+    <!-- ================================================ -->
+
+    <typography>
+
+      <heading>
+        Premium editorial serif font.
+        Prefer Cormorant Garamond or Playfair Display.
+      </heading>
+
+      <body>
+        Inter or Manrope.
+      </body>
+
+      <rule>
+        Do not introduce additional font families unless
+        absolutely required.
+      </rule>
+
+      <rule>
+        Maintain the same heading, body and button typography
+        across desktop, tablet and mobile.
+      </rule>
+
+    </typography>
+
+
+    <!-- ================================================ -->
+    <!-- LOCKED VISUAL STYLE -->
+    <!-- ================================================ -->
+
+    <visual_style>
+
+      <item>
+        Premium
+      </item>
+
+      <item>
+        Minimal
+      </item>
+
+      <item>
+        Elegant
+      </item>
+
+      <item>
+        Professional
+      </item>
+
+      <item>
+        Spacious
+      </item>
+
+      <item>
+        Trustworthy
+      </item>
+
+      <item>
+        Modern UK professional-services aesthetic
+      </item>
+
+    </visual_style>
+
+
+    <!-- ================================================ -->
+    <!-- SPACING -->
+    <!-- ================================================ -->
+
+    <spacing>
+
+      <rule>
+        Use a consistent spacing scale throughout the website.
+      </rule>
+
+      <rule>
+        Do not randomly change padding or margins between sections.
+      </rule>
+
+      <rule>
+        Desktop sections should maintain generous vertical spacing.
+      </rule>
+
+      <rule>
+        Mobile spacing should scale proportionally while maintaining
+        the same visual rhythm.
+      </rule>
+
+    </spacing>
+
+
+    <!-- ================================================ -->
+    <!-- COMPONENT CONSISTENCY -->
+    <!-- ================================================ -->
+
+    <components>
+
+      <navbar>
+        Keep the same navbar styling across all scroll states.
+      </navbar>
+
+      <buttons>
+        Use the same button design everywhere.
+      </buttons>
+
+      <cards>
+        Use one consistent card design system.
+      </cards>
+
+      <forms>
+        Use one consistent input, textarea and select design.
+      </forms>
+
+      <sections>
+        Maintain consistent section widths and container alignment.
+      </sections>
+
+      <logo>
+        The preloader, navbar and footer MUST use the same Logo component.
+      </logo>
+
+    </components>
+
+
+    <!-- ================================================ -->
+    <!-- RESPONSIVE CSS -->
+    <!-- ================================================ -->
+
+    <responsive_css>
+
+      <rule>
+        Responsive behavior must preserve the same visual identity.
+      </rule>
+
+      <desktop>
+        Preserve the full premium desktop layout.
+      </desktop>
+
+      <tablet>
+        Reflow the layout without changing the design language.
+      </tablet>
+
+      <mobile>
+        Convert layouts to single-column where required,
+        but retain the same colors, typography, buttons,
+        cards and overall visual identity.
+      </mobile>
+
+      <rule>
+        Never allow horizontal overflow.
+      </rule>
+
+      <rule>
+        Do not simply shrink the desktop design.
+        Properly reflow and redesign component spacing for mobile.
+      </rule>
+
+    </responsive_css>
+
+
+    <!-- ================================================ -->
+    <!-- ANIMATION CONSISTENCY -->
+    <!-- ================================================ -->
+
+    <animations>
+
+      <rule>
+        Keep all animations subtle, smooth and premium.
+      </rule>
+
+      <rule>
+        Do not introduce flashy animations simply for visual effect.
+      </rule>
+
+      <rule>
+        All sections should follow the same reveal animation language.
+      </rule>
+
+      <rule>
+        Hover animations should use consistent duration and easing.
+      </rule>
+
+      <rule>
+        The preloader-to-navbar logo transition remains the
+        primary signature animation.
+      </rule>
+
+    </animations>
+
+
+    <!-- ================================================ -->
+    <!-- SEO VISIBILITY RULE -->
+    <!-- ================================================ -->
+
+    <seo_visual_rule>
+
+      <rule>
+        SEO metadata, JSON-LD, sitemap, robots.txt and other
+        technical SEO features must work independently from the
+        visual CSS.
+      </rule>
+
+      <rule>
+        Adding SEO must never cause visible layout changes.
+      </rule>
+
+      <rule>
+        Do not add hidden keyword blocks, invisible text,
+        keyword stuffing or visually manipulated SEO content.
+      </rule>
+
+      <rule>
+        All visible SEO content must look natural and belong
+        to the existing website design.
+      </rule>
+
+    </seo_visual_rule>
+
+
+    <!-- ================================================ -->
+    <!-- CSS ARCHITECTURE -->
+    <!-- ================================================ -->
+
+    <architecture>
+
+      <rule>
+        Create a centralized design system using CSS variables.
+      </rule>
+
+      <variables>
+
+        --color-primary
+        --color-secondary
+        --color-accent
+        --color-background
+        --color-surface
+        --color-text
+        --color-muted
+        --color-border
+
+        --font-heading
+        --font-body
+
+        --container-width
+        --section-spacing
+
+        --radius-small
+        --radius-medium
+        --radius-large
+
+        --shadow-subtle
+        --shadow-medium
+
+        --transition-fast
+        --transition-normal
+        --transition-smooth
+
+      </variables>
+
+      <rule>
+        Components should consume these variables rather than
+        defining unrelated colors and spacing values.
+      </rule>
+
+      <rule>
+        Avoid unnecessary inline styles.
+      </rule>
+
+      <rule>
+        Avoid duplicated CSS.
+      </rule>
+
+      <rule>
+        Keep responsive breakpoints consistent across components.
+      </rule>
+
+    </architecture>
+
+
+    <!-- ================================================ -->
+    <!-- FINAL DESIGN QA -->
+    <!-- ================================================ -->
+
+    <final_check>
+
+      <check>
+        All pages/sections use the same color palette.
+      </check>
+
+      <check>
+        All headings use the same heading font.
+      </check>
+
+      <check>
+        All body text uses the same body font.
+      </check>
+
+      <check>
+        All buttons have consistent styling.
+      </check>
+
+      <check>
+        All cards follow the same visual system.
+      </check>
+
+      <check>
+        Navbar and footer remain visually consistent.
+      </check>
+
+      <check>
+        Mobile and desktop look like the same brand.
+      </check>
+
+      <check>
+        SEO implementation does not alter the visual design.
+      </check>
+
+      <check>
+        No random colors or styles are introduced.
+      </check>
+
+      <check>
+        No horizontal scrolling exists.
+      </check>
+
+      <check>
+        The preloader and navbar logo are visually identical.
+      </check>
+
+    </final_check>
+
+  </css_design_lock>
+
+
+  <critical_instruction>
+  PRIORITY ORDER:
+
+  1. Preserve the defined visual design system.
+  2. Preserve the defined CSS and responsive behavior.
+  3. Preserve the logo animation and brand identity.
+  4. Implement functionality.
+  5. Implement SEO.
+
+  SEO MUST NOT override or redesign the existing UI.
+</critical_instruction>
