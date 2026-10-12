@@ -24,7 +24,7 @@ function buildHtmlTemplate({ name, email, phone, service, message }) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New Website Enquiry</title>
+  <title>New Enquiry</title>
 </head>
 <body style="margin: 0; padding: 0; background-color: #f4f5f7; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b; -webkit-font-smoothing: antialiased;">
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #f4f5f7; padding: 30px 15px;">
@@ -60,7 +60,7 @@ function buildHtmlTemplate({ name, email, phone, service, message }) {
           <tr>
             <td style="padding: 36px 36px 28px;">
               <h1 style="margin: 0 0 8px; font-family: Georgia, 'Times New Roman', serif; font-size: 22px; color: #0b1528; font-weight: 600;">
-                New Website Enquiry Received
+                New Enquiry Received
               </h1>
               <p style="margin: 0 0 24px; font-size: 14px; color: #64748b; line-height: 1.5;">
                 A prospective client has submitted an enquiry through the Evergate Law contact form. Details are provided below:
