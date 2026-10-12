@@ -39,7 +39,7 @@ export const handler = async (event) => {
 
     const mailOptions = {
       from: `"Evergate Law" <${process.env.SMTP_USER || 'Info2zamir@gmail.com'}>`,
-      to: process.env.SMTP_TO || 'Info2zamir@gmail.com',
+      to: process.env.SMTP_TO || 'dhairyapatel3007@gmail.com',
       replyTo: email,
       subject: `New Enquiry from ${name} - ${service || 'General Enquiry'}`,
       text: `New Website Enquiry:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone || 'Not provided'}\nService Required: ${service || 'Not specified'}\n\nMessage:\n${message}`,

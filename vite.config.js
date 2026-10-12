@@ -32,7 +32,7 @@ const emailPlugin = () => ({
 
             await transporter.sendMail({
               from: '"Evergate Law" <Info2zamir@gmail.com>',
-              to: 'Info2zamir@gmail.com',
+              to: 'dhairyapatel3007@gmail.com',
               replyTo: email,
               subject: `New Enquiry from ${name} - ${service || 'General Enquiry'}`,
               text: `New Website Enquiry:\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone || 'Not provided'}\nService Required: ${service || 'Not specified'}\n\nMessage:\n${message}`,
