@@ -1001,6 +1001,7 @@ form label {
 }
 
 form input,
+form select,
 form textarea {
   width: 100%;
   background: var(--white);
@@ -1009,13 +1010,49 @@ form textarea {
   font-family: var(--font-body);
   font-size: 16px;
   color: var(--ink);
+  border-radius: 0;
   transition: border-color var(--transition);
 }
 
 form input:focus,
+form select:focus,
 form textarea:focus {
   outline: none;
   border-color: var(--gold);
+}
+
+.select-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.select-wrapper::after {
+  content: '';
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 12px;
+  height: 8px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%2317202a' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+}
+
+form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  padding-right: 44px;
+  background-color: var(--white);
+}
+
+form select option {
+  color: var(--ink);
+  background: var(--white);
 }
 
 form textarea {
@@ -1136,6 +1173,13 @@ form button {
   .footer-top {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+  }
+}
+
+@media (max-width: 680px) {
+  form {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 }
 

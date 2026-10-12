@@ -3,7 +3,7 @@ import { useState } from 'react'
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
   const [form, setForm] = useState({
-    name: '', email: '', phone: '', message: ''
+    name: '', email: '', phone: '', service: '', message: ''
   })
 
   const handleSubmit = e => {
@@ -60,9 +60,23 @@ export default function Contact() {
                 <label htmlFor="email">Email</label>
                 <input type="email" id="email" name="email" value={form.email} onChange={handleChange} required />
               </div>
-              <div className="full-col">
+              <div>
                 <label htmlFor="phone">Phone</label>
                 <input type="tel" id="phone" name="phone" value={form.phone} onChange={handleChange} />
+              </div>
+              <div>
+                <label htmlFor="service">Service required</label>
+                <div className="select-wrapper">
+                  <select id="service" name="service" value={form.service} onChange={handleChange} required>
+                    <option value="" disabled>Choose a service</option>
+                    <option value="Family / Partner">Family / Partner</option>
+                    <option value="Work Visa">Work Visa</option>
+                    <option value="Business Immigration">Business Immigration</option>
+                    <option value="Settlement / ILR">Settlement / ILR</option>
+                    <option value="British Citizenship">British Citizenship</option>
+                    <option value="Visitor Visa">Visitor Visa</option>
+                  </select>
+                </div>
               </div>
               <div className="full-col">
                 <label htmlFor="message">How can we help?</label>
