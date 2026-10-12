@@ -167,7 +167,7 @@ const emailPlugin = () => ({
 
             await transporter.sendMail({
               from: '"Evergate Law" <Info2zamir@gmail.com>',
-              to: 'dhairyapatel3007@gmail.com',
+              to: 'Rutpatel74@gmail.com',
               replyTo: email,
               subject: `New Client Enquiry: ${name} (${service || 'Immigration'})`,
               text: `EVERGATE LAW - NEW ENQUIRY\n\nClient Name: ${name}\nEmail: ${email}\nPhone: ${phone || 'Not provided'}\nService Required: ${service || 'Not specified'}\n\nClient Message:\n${message}\n\n--\nSubmitted via Evergate Law Website`,
