@@ -1076,6 +1076,16 @@ form button {
   text-align: center;
 }
 
+.btn-spinner {
+  animation: spin 0.9s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 .form-success {
   background: var(--white);
   color: var(--ink);

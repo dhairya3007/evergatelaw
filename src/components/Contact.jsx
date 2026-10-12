@@ -179,9 +179,25 @@ export default function Contact() {
                 type="submit" 
                 className="btn dark" 
                 disabled={submitting}
-                style={{ opacity: submitting ? 0.75 : 1, cursor: submitting ? 'wait' : 'pointer' }}
+                style={{ opacity: submitting ? 0.8 : 1, cursor: submitting ? 'wait' : 'pointer' }}
               >
-                {submitting ? 'Sending Enquiry...' : 'Send Enquiry'}
+                {submitting ? (
+                  <span style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '10px' }}>
+                    <svg className="btn-spinner" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <line x1="12" y1="2" x2="12" y2="6" />
+                      <line x1="12" y1="18" x2="12" y2="22" />
+                      <line x1="4.93" y1="4.93" x2="7.76" y2="7.76" />
+                      <line x1="16.24" y1="16.24" x2="19.07" y2="19.07" />
+                      <line x1="2" y1="12" x2="6" y2="12" />
+                      <line x1="18" y1="12" x2="22" y2="12" />
+                      <line x1="4.93" y1="19.07" x2="7.76" y2="16.24" />
+                      <line x1="16.24" y1="7.76" x2="19.07" y2="4.93" />
+                    </svg>
+                    Sending Enquiry...
+                  </span>
+                ) : (
+                  'Send Enquiry'
+                )}
               </button>
               <p className="form-disclaimer">
                 Evergate will process your data in accordance with our Privacy Policy.
